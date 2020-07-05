@@ -1,0 +1,29 @@
+<!-- クラス属性の操作 -->
+<!-- <div id="app">
+    <div class="container">
+      <h1 class=title>Welcome to Vue</h1>
+      <p v-for="message in messages"
+         class="text"
+         :class="{ 'text-error': message.error }">
+        {{ message.text }}
+      </p>
+    </div>
+  </div> -->
+<!-- style属性の操作 -->
+<div id="app">
+    <div class="container pt-3">
+        <h1 class="h3 mb-4">Progress</h1>
+        <div class="progress">
+            <div class="progress-bar"
+                role="progressbar"
+                :style="{width: progress + '%'}">
+            </div>
+        </div>
+    </div>
+</div>
+
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://unpkg.com/vue"></script>
+  <script src="app.js"></script>
